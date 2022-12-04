@@ -19,9 +19,7 @@ FLASH 烧入参考参数
 
 IDF 生成工程
 
-![image-20221123211216874](C:\Users\thomas\AppData\Roaming\Typora\typora-user-images\image-20221123211216874.png)
-
-
+选择HCI_UART 工程选择ESP32
 
 ## 如何使用
 
