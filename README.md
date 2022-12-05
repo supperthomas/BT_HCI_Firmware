@@ -1,6 +1,6 @@
 # BT_HCI_Firmware
 The guide to how to create a hci control 
-## 简介
+## 1.简介
 
 这个仓库存放的是一些如何制作一个蓝牙dongle的固件，保存方便其他人后续学习使用。
 主要是把一些蓝牙芯片模拟成一个蓝牙dongle，用来跑一些host的协议栈，或者做一些小demo。
@@ -11,8 +11,8 @@ The guide to how to create a hci control
 - HCI_USB(H2)
 - HCI_UART_H5 (这个暂时没有合适的硬件）
 
-## ESP 乐鑫
-### ESP32
+## 2.ESP 乐鑫
+### 2.1 ESP32
 
 ESP32 没有USB
 
@@ -24,16 +24,16 @@ ESP32 没有USB
 
 需要另外接线接USB转TTL的口到电脑。
 
-### ESP32C3
+### 2.2 ESP32C3
 
 这个烧入方法和上面类似
 
 需要另外接线接USB转TTL的口到电脑。
 
 
-## Nordic
+## 3. Nordic
 
-### nrf52840 DK
+### 3.1 nrf52840 DK
 
 nrf52840 是带USB的
 
@@ -51,7 +51,7 @@ nrf52840 是带USB的
 
 制作方法：zephyr hci_uart
 
-### nrf52840 dongle
+### 3.2 nrf52840 dongle
 
 这个是带bootloader的，
 
@@ -65,7 +65,7 @@ USB接口
 
 制作方法：出厂自带的固件
 
-### nrf52832 DK
+### 3.3 nrf52832 DK
 
 nrf52832 没有USB模块
 
