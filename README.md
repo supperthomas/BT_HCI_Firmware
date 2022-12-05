@@ -6,9 +6,10 @@ The guide to how to create a hci control
 主要是把一些蓝牙芯片模拟成一个蓝牙dongle，用来跑一些host的协议栈，或者做一些小demo。
 
 目前主要接口有
-HCI_UART (默认H4协议)
-HCI_USB(H2)
-HCI_UART_H5 (这个暂时没有合适的硬件）
+
+- HCI_UART (默认H4协议)
+- HCI_USB(H2)
+- HCI_UART_H5 (这个暂时没有合适的硬件）
 
 ## ESP32
 
