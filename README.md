@@ -11,7 +11,8 @@ The guide to how to create a hci control
 - HCI_USB(H2)
 - HCI_UART_H5 (这个暂时没有合适的硬件）
 
-## ESP32
+## ESP 乐鑫
+### ESP32
 
 ESP32 没有USB
 
@@ -22,6 +23,13 @@ ESP32 没有USB
 需要注意的是：通常用的接电脑的USB不是HCI_UART口
 
 需要另外接线接USB转TTL的口到电脑。
+
+### ESP32C3
+
+这个烧入方法和上面类似
+
+需要另外接线接USB转TTL的口到电脑。
+
 
 ## Nordic
 
