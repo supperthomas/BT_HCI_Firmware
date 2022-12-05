@@ -19,11 +19,17 @@ The guide to how to create a hci control
 - nrf52840-dongle(PCA10059)
 - nrf52832-DK(pca10040)
 
+
+
 目前主要接口有
 
 - HCI_UART (默认H4协议)
 - HCI_USB(H2)
 - HCI_UART_H5 (这个暂时没有合适的硬件）
+
+需要的硬件：
+- USB转TTL
+- USB线
 
 ## 2.ESP 乐鑫
 
