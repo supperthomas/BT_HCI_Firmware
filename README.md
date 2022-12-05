@@ -30,7 +30,7 @@ nrf52840 是带USB的
 
 #### HCI_USB
 
-用固件，直接托到JLINK 枚举的U盘即可
+用固件，直接托到JLINK 枚举的U盘即可，这个需要另外一个USB线接到DK的另外一个USB口
 
  [HCI_USB_BLE_ADAPTER_nrf52840_no_dfu.hex](02_Nordic\HCI_USB\HCI_USB_BLE_ADAPTER_nrf52840_no_dfu.hex) 
 
