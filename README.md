@@ -3,7 +3,21 @@ The guide to how to create a hci control
 ## 1.简介
 
 这个仓库存放的是一些如何制作一个蓝牙dongle的固件，保存方便其他人后续学习使用。
-主要是把一些蓝牙芯片模拟成一个蓝牙dongle，用来跑一些host的协议栈，或者做一些小demo。
+主要是把一些蓝牙芯片模拟成一个蓝牙dongle，用来跑一些host的协议栈，或者做一些小demo。由于我们不需要关心control的代码，这边保留固件和制作方法，保证能用即可。
+如果大家有其他固件也可以PR上来，注明使用方法和参数。
+
+## 目前支持开发板
+
+理论上相同芯片所有开发板都支持的，下面列出我用的开发板，仅供参考。
+
+### 乐鑫
+- [ESP32][NodeMCU](https://docs.ai-thinker.com/esp32/boards/nodemcu_32s)
+- [EPS32C3][合宙](http://luatos.com/t/esp32c3)
+
+### Nordic
+- nrf52840-DK(pca10056)
+- nrf52840-dongle(PCA10059)
+- nrf52832-DK(pca10040)
 
 目前主要接口有
 
@@ -12,6 +26,9 @@ The guide to how to create a hci control
 - HCI_UART_H5 (这个暂时没有合适的硬件）
 
 ## 2.ESP 乐鑫
+
+乐鑫有自己的独立烧入工具
+
 ### 2.1 ESP32
 
 ESP32 没有USB
@@ -20,9 +37,9 @@ ESP32 没有USB
 
 烧入方法，见[readme](01_ESP/01_ESP32/readme.md)
 
-需要注意的是：通常用的接电脑的USB不是HCI_UART口
+需要注意的是：通常用的接电脑的UART0不是HCI_UART口
 
-需要另外接线接USB转TTL的口到电脑。
+需要另外接线接USB转TTL接UART1 到电脑。
 
 ### 2.2 ESP32C3
 
