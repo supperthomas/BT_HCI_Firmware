@@ -9,6 +9,7 @@ The guide to how to create a hci control
 ## 目前支持开发板
 
 理论上相同芯片所有开发板都支持的，下面列出我用的开发板，仅供参考。
+例如，nrf52840-dongle的固件，其实也是可以用于nrf52840-dk的。两个固件本质上可以相互使用。
 
 ### 乐鑫
 - [ESP32][NodeMCU](https://docs.ai-thinker.com/esp32/boards/nodemcu_32s)
